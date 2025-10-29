@@ -1,7 +1,10 @@
 # SBA2
 
+<<<<<<< HEAD
 # SBA2
 
+=======
+>>>>>>> f58d64d (Added website explanation and answered reflection questions in this README.md file)
 This is a sample website for a fictitous company called Accessible Design Co. This was done for a SBA (Skills Based Assessement). This company is a web design company that can assist with web design for all types of people or organizations.
 
 This web page includes a button called "Start Your Accessible Design Project" that users can click on to start exploring more about how the company can work their ideas for web design. 
@@ -19,6 +22,9 @@ Reflections:
 
 
 3) I am starting to use more and more W3 Schools website because it displays information in a very clear, concise manner which makes it easir to consume and understand. Also, I used several times the CSS-Tricks website to try and figure out how to better use the flexbox and grid layouts for this web page. 
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> f58d64d (Added website explanation and answered reflection questions in this README.md file)
