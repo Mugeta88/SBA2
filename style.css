@@ -96,3 +96,10 @@ div li {
     margin: 8px;
     list-style:square;
 }
+
+@media (max-width: 600px) {
+    #content {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
