@@ -54,9 +54,9 @@ text-decoration: none;
 #info-button {
     background-color:cadetblue;
     color:aliceblue;
-    font-size: 1rem;
+    font-size: 0.9rem;
     padding: 5px 5px;
-    border: solid rgb(202, 146, 146) 4px;
+    border: solid #d5b78b 4px;
     border-radius: 10px;
     cursor: pointer;
     text-align: center;
@@ -64,4 +64,13 @@ text-decoration: none;
 
 #info-button:hover {
     background-color: rgb(202, 84, 108);
+}
+
+footer {  
+    position: fixed;
+    bottom: 0;
+    right: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
 }
