@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>SBA #2</title>
+    <title>Accessible Design Co.</title>
 </head>
 <body>
-    <header>
-        <nav>
+    <header role="banner">
+        <nav role="navigation">
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#aboutus">About Us</a></li>
@@ -30,11 +30,12 @@
                 for users of all abilities. At Accessible Design Co., we believe that 
                 great design is universal and our mission is to make the web a more 
                 welcoming place for all.</p>
-                <button id="info-button">Start Your Accessible Design Project</button>
+                <button id="info-button" role="button" aria-label="Click to start sample project">Start Your Accessible Design Project</button>
+                <p aria-live="polite">Please explore more of our website!</p>
         </div>
     </div>
 
-    <section>
+    <section class="about">
         <h2>About Us</h2>
         <div>
             <p>At Accessible Design Co., we believe that the internet should be a place 
@@ -52,9 +53,9 @@
         </div>
     </section>
 
-    <section>
-        <h2>Services</h2>
-        <div>
+    <section class="main-content">
+        <h2 id="services-subheading">Services</h2>
+        <div id="content">
             <div>
                 <h3>Core Web Design & Development Services</h3>
                 <ul>
@@ -101,10 +102,14 @@
             <label for="subject">Subject:</label><br>
             <input type="text" id="subject" name="subject"><br>
             <label for="message">Message:</label><br>
-            <input type="text" id="message" name="message">
+            <input type="text" id="message" name="message"><br>
+            <input type="submit" value="Submit">
         </form>
     </section>
-    
-    
+
+
+    <footer>
+        <p>&copy; 2025 Accessible Design Co.</p>
+    </footer>
 </body>
 </html>
