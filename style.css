@@ -38,4 +38,30 @@ text-decoration: none;
 
 .hero-image h1 {
     margin-top: 80px;
+    color: chocolate;
+}
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("annie-spratt-FSFfEQkd1sc-unsplash.jpg");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: rgb(203, 196, 175);
+}
+
+#info-button {
+    background-color:cadetblue;
+    color:aliceblue;
+    font-size: 1rem;
+    padding: 5px 5px;
+    border: solid rgb(202, 146, 146) 4px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+#info-button:hover {
+    background-color: rgb(202, 84, 108);
 }
