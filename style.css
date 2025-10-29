@@ -74,3 +74,25 @@ footer {
     display: flex;
     align-items: center;
 }
+
+
+#content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 300px 200px;
+    gap: 10px;
+}
+
+#services-subheading {
+    display: flex;
+    justify-content: center;
+}
+
+.about {
+    margin-bottom: 100px;
+}
+
+div li {
+    margin: 8px;
+    list-style:square;
+}
